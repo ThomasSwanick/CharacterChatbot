@@ -35,6 +35,11 @@ class SignupInteractorTest {
             public void switchToLoginView() {
                 // This is expected
             }
+
+            @Override
+            public void switchToHomeView() {
+                // This is expected
+            }
         };
 
         SignupInputBoundary interactor = new SignupInteractor(userRepository, successPresenter, new CommonUserFactory());
@@ -61,6 +66,11 @@ class SignupInteractorTest {
 
             @Override
             public void switchToLoginView() {
+                // This is expected
+            }
+
+            @Override
+            public void switchToHomeView() {
                 // This is expected
             }
         };
@@ -94,6 +104,11 @@ class SignupInteractorTest {
 
             @Override
             public void switchToLoginView() {
+                // This is expected
+            }
+
+            @Override
+            public void switchToHomeView() {
                 // This is expected
             }
         };
